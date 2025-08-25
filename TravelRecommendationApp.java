@@ -10,7 +10,7 @@ public class TravelRecommendationApp {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("🌍 Welcome to the Travel Recommendation System!");
+        System.out.println("Welcome to the Travel Recommendation System!");
 
         System.out.print("Enter preferred location (Asia, Europe, North America, South America, Africa, Australia): ");
         String location = sc.nextLine();
@@ -91,4 +91,5 @@ public class TravelRecommendationApp {
             return recommended;
         }
     }
+
 } 
